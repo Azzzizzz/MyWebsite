@@ -1,0 +1,37 @@
+.project-heading {
+  // background: rgba(255, 0, 0, 0.233);
+  h1 {
+    font-size: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: poppins;
+    font-weight: 600;
+    background: rgb(235, 235, 243);
+
+    text-align: center;
+  }
+}
+.projects {
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+  @include flex(space-between, center, row);
+  text-align: center;
+  flex-wrap: wrap;
+
+  h2 {
+    margin: 5rem;
+  }
+}
+
+.travelly,
+.elena {
+  flex: 1 1 40rem;
+  // border: 1px solid red;
+}
+
+.travelly img {
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px rgba(122, 122, 122, 0.767);
+  // border: 1px solid red;
+}
